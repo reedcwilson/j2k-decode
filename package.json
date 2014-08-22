@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "DEBUG=j2k-decode ./bin/www"
   },
   "dependencies": {
     "express": "~4.2.0",
@@ -14,5 +14,9 @@
     "debug": "~0.7.4",
     "jade": "~1.3.0",
     "stylus": "0.42.3"
+  }
+  "engines": {
+    "node": "0.10.25",
+    "npm": "1.3.10"
   }
 }
