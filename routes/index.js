@@ -3,12 +3,17 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Playground' });
 });
 
-/* GET home page. */
-router.get('/j2k', function(req, res) {
-  res.render('j2k', { title: 'J2K Decoding' });
+/* GET projects page. */
+router.get('/projects', function(req, res) {
+  res.render('projects', { title: 'Projects' });
+});
+
+/* GET about page. */
+router.get('/about', function(req, res) {
+  res.render('about', { title: 'About' });
 });
 
 module.exports = router;
