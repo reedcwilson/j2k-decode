@@ -1,4 +1,4 @@
-j2k-decode
+Reed Wilson
 ==========
 
-A site that decodes J2Ks
+A site that explains a little about Reed C. Wilson
