@@ -3,15 +3,23 @@ html
   head
     title= title
     link(rel='stylesheet', href='stylesheets/style.css')
+    link(rel='stylesheet', href='stylesheets/style.css')
+    link(rel='stylesheet', type="text/css", href="stylesheets/jquery.fullPage.css")
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+    script(type="text/javascript", src="javascripts/vendors/jquery.easings.min.js")
+    script(type="text/javascript", src="javascripts/vendors/jquery.slimscroll.min.js")
+    script(type="text/javascript", src="javascripts/jquery.fullPage.js")
+    script(type="text/javascript", src="javascripts/resume.js")
 body
   header
-  div(class='shadow-underline')
-    div(class='site-name') Playground
-    nav
-      ul
-        li: a(href='/') Home
-        li: a(href='/projects') Projects
-        li: a(href='/about') About
+  div(class='site-header shadow-underline')
+    div(class='site-name') Résumé
+    div(class='site-nav')
+      nav
+        ul
+          li: a(href='/') Home
+          li: a(href='/projects') Projects
+          li: a(href='/about') About
 
   div(class='content')
     block content

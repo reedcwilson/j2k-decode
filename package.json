@@ -1,9 +1,9 @@
 {
-  "name": "j2k-decode",
+  "name": "resume",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "DEBUG=j2k-decode ./bin/www"
+    "start": "DEBUG=resume ./bin/www"
   },
   "dependencies": {
     "express": "~4.2.0",
