@@ -21,10 +21,6 @@ nav a {
   text-decoration: none;
   color: #444;
 }
-footer {
-  margin: 40px 10px 10px 10px;
-  text-align: center;
-}
 p {
   width: 150px;
 }
@@ -32,16 +28,27 @@ p {
  * Content
  */
 .content {
-  margin: 0px 5px;
+  margin: 100px 0px 20px 0px;
 }
 /*
- * Header for the whole site
+ * Header and Footer
  */
-.site-header {
-  padding: 5px;
+#header,
+#footer {
   text-align: center;
-  background-color: #222;
-  z-index: 99;
+  background: none repeat scroll 0% 0% #fff;
+  width: 100%;
+  z-index: 150;
+  position: fixed;
+}
+#header {
+  padding: 5px;
+  height: 100px;
+}
+#footer {
+  bottom: 0;
+  height: 20px;
+  padding: 10px;
 }
 /*
  * Site Name
@@ -66,4 +73,9 @@ p {
   -moz-box-shadow: 0px 4px 3px 0px #ccc;
   -webkit-box-shadow: 0px 4px 3px 0px #ccc;
   box-shadow: 0px 4px 3px 0px #ccc;
+}
+.shadow-overline {
+  -moz-box-shadow: 0px -4px 3px 0px #ccc;
+  -webkit-box-shadow: 0px -4px 3px 0px #ccc;
+  box-shadow: 0px -4px 3px 0px #ccc;
 }
