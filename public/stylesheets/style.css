@@ -16,13 +16,39 @@ nav li {
 }
 nav a {
   display: inline-block;
-  padding: 15px;
+  padding: 25px 15px;
   font-size: 20px;
   text-decoration: none;
   color: #444;
 }
 p {
-  width: 150px;
+  width: 200px;
+}
+/*
+ * Header and Footer
+ */
+header,
+footer {
+  width: 100%;
+  background: #fff;
+  z-index: 150;
+  position: fixed;
+}
+header {
+  height: 100px;
+}
+footer {
+  text-align: center;
+  bottom: 0;
+  height: 20px;
+  padding: 10px;
+}
+/*
+ * Site Wrapper
+ */
+.site-wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 /*
  * Content
@@ -31,40 +57,18 @@ p {
   margin: 100px 0px 20px 0px;
 }
 /*
- * Header and Footer
- */
-#header,
-#footer {
-  text-align: center;
-  background: none repeat scroll 0% 0% #fff;
-  width: 100%;
-  z-index: 150;
-  position: fixed;
-}
-#header {
-  padding: 5px;
-  height: 100px;
-}
-#footer {
-  bottom: 0;
-  height: 20px;
-  padding: 10px;
-}
-/*
  * Site Name
  */
 .site-name {
+  padding: 25px 0;
   font-family: Calibri Segoe UI, Arial, Sans-Serif;
   font-size: 35px;
-  padding: 15px;
-  margin: 0 50px 0 0;
-  display: inline-block;
 }
 /*
  * Site nav bar
  */
 .site-nav {
-  display: inline-block;
+  float: right;
 }
 /*
  * Shadow

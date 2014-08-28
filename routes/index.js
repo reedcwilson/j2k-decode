@@ -1,9 +1,14 @@
 var express = require('express');
 var router = express.Router();
+var config = require(__dirname + '/../resume');
+
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Home' });
+  for (var key in config.resume) {
+    console.log(key);
+  }
+  res.render('index', { title: 'Home', content: config });
 });
 
 /* GET projects page. */

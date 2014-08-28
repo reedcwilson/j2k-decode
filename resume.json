@@ -1,40 +1,40 @@
 {
-  "sections": [
+  "resume": {
     "Experience": [
-      {
-        "Title": "Imaging Production Team Lead",
-        "Company": "Ancestry.com",
-        "Period": "4/2012-Present",
-        "Messages": [
-          "Developed a WPF application for specialists to track images and statistical information using a SQL database",
-          "Developed multiple WinForms applications to accomplish minor image processing and file manipulations",
-          "Supported the office manager in maintaining the production floor",
-          "Had many opportunities to train employees as well as give presentations",
-          "Led the team in production numbers in addition to performing administrative tasks"
+    {
+      "Title": "Imaging Production Team Lead",
+      "Company": "Ancestry.com",
+      "Period": "4/2012-Present",
+      "Messages": [
+        "Developed a WPF application for specialists to track images and statistical information using a SQL database",
+      "Developed multiple WinForms applications to accomplish minor image processing and file manipulations",
+      "Supported the office manager in maintaining the production floor",
+      "Had many opportunities to train employees as well as give presentations",
+      "Led the team in production numbers in addition to performing administrative tasks"
         ]
-      },
-      {
-        "Title": "Imaging Specialist",
-        "Company": "Ancestry.com",
-        "Period": "9/2010-6/2011 and 8/2011-4/2012",
-        "Messages": [
-          "Handled historical documents and images and prepared them for publishing",
-          "Was the top image producer in the department and learned how to troubleshoot the hardware and the software"
+    },
+    {
+      "Title": "Imaging Specialist",
+      "Company": "Ancestry.com",
+      "Period": "9/2010-6/2011 and 8/2011-4/2012",
+      "Messages": [
+        "Handled historical documents and images and prepared them for publishing",
+      "Was the top image producer in the department and learned how to troubleshoot the hardware and the software"
         ]
-      },
-      {
-        "Title": "Technical Support Agent",
-        "Company": "Ancestry.com",
-        "Period": "6/2011-8/2011",
-        "Messages": [
-          "Became familiar with Ancestry.com products and supported customers having technical problems",
-          "Learned more about Ancestry’s mission and gained insight into customers’ feelings about our products"
+    },
+    {
+      "Title": "Technical Support Agent",
+      "Company": "Ancestry.com",
+      "Period": "6/2011-8/2011",
+      "Messages": [
+        "Became familiar with Ancestry.com products and supported customers having technical problems",
+      "Learned more about Ancestry’s mission and gained insight into customers’ feelings about our products"
         ]
-      }
+    }
     ],
-    "Skills" [
-      "Languages and Technologies": [
-        "C",
+      "Skills": {
+        "Languages and Technologies": [
+          "C",
         "C#",
         "C++",
         "CSS",
@@ -52,8 +52,8 @@
         "Scrum",
         "SQL",
         "WPF"
-      ]
-    ],
+          ]
+      },
     "Education": {
       "Institution": "Brigham Young University",
       "Graduation": "April 2015",
@@ -61,9 +61,9 @@
       "Minor": "Business",
       "Relevant Courses": [
         "Data Structures",
-        "Computer Systems",
-        "Discrete Structures and Mathematics"
+      "Computer Systems",
+      "Discrete Structures and Mathematics"
         ]
     }
-  ]
+  }
 }
