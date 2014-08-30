@@ -3,6 +3,9 @@ body {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 a.button {
   color: #00b7ff;
 }
@@ -71,6 +74,105 @@ footer {
   float: right;
 }
 /*
+ * Menu
+ */
+#menu {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: none repeat scroll 0% 0% rgba(200,200,200,0.5);
+  border-radius: 10px;
+}
+#menu li.active a {
+  color: #fff;
+}
+#menu li a,
+#menu li.active a {
+  padding: 9px 18px;
+  display: block;
+}
+#menu li a {
+  text-decoration: none;
+  color: #000;
+}
+/*
+ * Page Sections
+ */
+.section {
+  padding: 50px 0 !important;
+}
+#experience-section {
+  background: #f7f5f5;
+}
+/*
+ * Experience Table
+ */
+.experience-tbl {
+  width: 1020px;
+  margin: 0 auto;
+}
+.experience-tbl td {
+  padding: 70px;
+  text-align: center;
+}
+/*
+ * Experience
+ */
+.experience {
+  text-align: center;
+  background: #fff;
+  height: 250px;
+  width: 450px;
+  margin: auto;
+}
+.experience h3 {
+  font-family: Calibri Segoe UI, Arial, Sans-Serif;
+  font-size: 20px;
+  padding: 75px 0 0 0;
+  margin: 0;
+}
+.experience img {
+  max-width: 40%;
+  max-height: 40%;
+}
+.experience p {
+  padding: 0;
+  margin: auto;
+}
+/*
+ * More Experience
+ */
+.more-experience {
+  width: 600px;
+  height: 600px;
+  background: #ddd;
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -300px;
+}
+/*
+ * Technologies
+ */
+.technologies li {
+  height: 50px;
+}
+.technologies img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*
  * Shadow
  */
 .shadow-underline {
@@ -82,4 +184,10 @@ footer {
   -moz-box-shadow: 0px -4px 3px 0px #ccc;
   -webkit-box-shadow: 0px -4px 3px 0px #ccc;
   box-shadow: 0px -4px 3px 0px #ccc;
+}
+/*
+ * Hidden
+ */
+.hidden {
+  display: none;
 }

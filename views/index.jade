@@ -1,16 +1,67 @@
 extends layout
 
+mixin experience-item(exp, idx)
+  td
+    div(class='experience')
+      p(class='hidden') #{exp.Id}
+      h3 #{exp.Title}
+      if exp.Company.toLowerCase() == 'ancestry.com'
+        a(href='http://www.ancestry.com'): img(src='images/ancestry_com-' + (idx + 1).toString() + '.png', alt=exp.Company) 
+      p #{exp.Period}
+
+mixin more-experience-item(exp)
+  div(class="hidden more-experience", id='more-experience-' + exp.Id)
+    p Manager: 
+      a(href='mailto:' + exp.Reference.Email) #{exp.Reference.Name}
+    ul
+      each item in exp.Messages
+        li=item
+
+mixin education-item(edu)
+  li
+    div(class='education')
+      p(class='hidden') #{edu.Id}
+      h3 #{edu.Institution}
+      a(href='#'): img(src='images/' + edu.Id.toLowerCase() + '.png', alt=edu.Id)
+      p #{edu.Graduation}
+      p Major: #{edu.Major}
+      p Minor: #{edu.Minor}
+      ul
+        each course in edu.Courses
+          li=course
+
 block content
+  ul(id="menu")
+    li(data-menuanchor="Experience")
+      a(href="#Experience") Experience
+    li(data-menuanchor="Skills")
+      a(href="#Skills") Skills
+    li(data-menuanchor="Education")
+      a(href="#Education") Education
+
   div(id="fullpage")
-    //each obj, key in content.resume
-    div(class="section")
-      h1 Experience
-      p Lorem ipsum dolor sit amet, blandit dui lectus tellus eleifend ad a, maecenas diam vitae accumsan amet mattis pharetra, elementum blandit nascetur nunc vitae faucibus wisi, blandit duis. Aptent in fermentum. Torquent integer viverra scelerisque lobortis eu faucibus, nonummy velit amet. Etiam ac. Venenatis hendrerit lacus venenatis vestibulum, eleifend lectus lectus fringilla erat erat sed, aliquet pellentesque et erat vehicula convallis, nulla tempore lacus nulla cursus ligula. Id id tellus, commodo ut amet ac, mi erat, massa vitae a sed lorem. Lorem eu duis ac, ut sit sed et justo ut mollis, malesuada a sit nulla ac mauris, quis tellus eget elit a. Tellus ligula metus congue libero rutrum rutrum. Ac vel sed elit velit interdum blandit. Pulvinar fusce duis id quis proin commodo, neque nullam id libero nunc. Libero blandit aenean amet, tristique in dui, arcu a ut urna, elit voluptas nec sem velit in. Wisi eu tortor sollicitudin. In porttitor nullam conubia lacus vitae ac, at turpis vel. Morbi id mollis quisque.
+    div(class="section", data-anchor='Experience', id='experience-section')
+      table(class='experience-tbl')
+        tbody
+          - var idx = 0
+          each exp, key in content.resume.Experience
+            if !(idx % 2)
+              tr
+            +experience-item(exp, idx++)
 
-    div(class="section")
-      h1 Skills
-      p Lorem ipsum dolor sit amet, blandit dui lectus tellus eleifend ad a, maecenas diam vitae accumsan amet mattis pharetra, elementum blandit nascetur nunc vitae faucibus wisi, blandit duis. Aptent in fermentum. Torquent integer viverra scelerisque lobortis eu faucibus, nonummy velit amet. Etiam ac. Venenatis hendrerit lacus venenatis vestibulum, eleifend lectus lectus fringilla erat erat sed, aliquet pellentesque et erat vehicula convallis, nulla tempore lacus nulla cursus ligula. Id id tellus, commodo ut amet ac, mi erat, massa vitae a sed lorem. Lorem eu duis ac, ut sit sed et justo ut mollis, malesuada a sit nulla ac mauris, quis tellus eget elit a. Tellus ligula metus congue libero rutrum rutrum. Ac vel sed elit velit interdum blandit. Pulvinar fusce duis id quis proin commodo, neque nullam id libero nunc. Libero blandit aenean amet, tristique in dui, arcu a ut urna, elit voluptas nec sem velit in. Wisi eu tortor sollicitudin. In porttitor nullam conubia lacus vitae ac, at turpis vel. Morbi id mollis quisque.
+      each exp, key in content.resume.Experience
+        +more-experience-item(exp)
 
-    div(class="section")
-      h1 Education
-      p Lorem ipsum dolor sit amet, blandit dui lectus tellus eleifend ad a, maecenas diam vitae accumsan amet mattis pharetra, elementum blandit nascetur nunc vitae faucibus wisi, blandit duis. Aptent in fermentum. Torquent integer viverra scelerisque lobortis eu faucibus, nonummy velit amet. Etiam ac. Venenatis hendrerit lacus venenatis vestibulum, eleifend lectus lectus fringilla erat erat sed, aliquet pellentesque et erat vehicula convallis, nulla tempore lacus nulla cursus ligula. Id id tellus, commodo ut amet ac, mi erat, massa vitae a sed lorem. Lorem eu duis ac, ut sit sed et justo ut mollis, malesuada a sit nulla ac mauris, quis tellus eget elit a. Tellus ligula metus congue libero rutrum rutrum. Ac vel sed elit velit interdum blandit. Pulvinar fusce duis id quis proin commodo, neque nullam id libero nunc. Libero blandit aenean amet, tristique in dui, arcu a ut urna, elit voluptas nec sem velit in. Wisi eu tortor sollicitudin. In porttitor nullam conubia lacus vitae ac, at turpis vel. Morbi id mollis quisque.
+
+    div(class="section", data-anchor='Skills')
+      div(class='technologies')
+        h3 Languages and Technologies
+        ul
+          each tech in content.resume.Skills.Technologies
+            li
+              a(href='#'): img(src=encodeURIComponent('images/' + tech.toLowerCase().replace(' ', '_') + '.png'), alt=tech)
+
+    div(class="section", data-anchor='Education')
+      ul
+        each edu, key in content.resume.Education
+          +education-item(edu)

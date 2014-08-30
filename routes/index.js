@@ -5,9 +5,6 @@ var config = require(__dirname + '/../resume');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  for (var key in config.resume) {
-    console.log(key);
-  }
   res.render('index', { title: 'Home', content: config });
 });
 

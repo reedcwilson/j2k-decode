@@ -2,68 +2,101 @@
   "resume": {
     "Experience": [
     {
-      "Title": "Imaging Production Team Lead",
+      "Id" : "1",
+      "Title": "Software Engineer Intern",
       "Company": "Ancestry.com",
-      "Period": "4/2012-Present",
+      "Period": "6/2013-Present",
+      "Reference": {
+        "Name" : "Michael Murdock",
+        "Email" : "mmurdock@ancestry.com"
+      },
       "Messages": [
-        "Developed a WPF application for specialists to track images and statistical information using a SQL database",
-      "Developed multiple WinForms applications to accomplish minor image processing and file manipulations",
-      "Supported the office manager in maintaining the production floor",
-      "Had many opportunities to train employees as well as give presentations",
-      "Led the team in production numbers in addition to performing administrative tasks"
+          "Created an archiving and file copying system that interfaced with OpenStack Swift",
+          "Worked on a image editor using WPF and Pixel Shaders",
+          "Created a website that consumed proprietary gridline processing data and displayed reports to administators"
         ]
     },
     {
+      "Id" : "2",
+      "Title": "Imaging Production Team Lead",
+      "Company": "Ancestry.com",
+      "Period": "4/2012-6/2013",
+      "Reference": {
+        "Name" : "Jeff Heaps",
+        "Email" : "jheaps@ancestry.com"
+      },
+      "Messages": [
+        "Developed a WPF application for specialists to track images and statistical information using a SQL database",
+        "Developed multiple WinForms applications to accomplish minor image processing and file manipulations",
+        "Supported the office manager in maintaining the production floor",
+        "Had many opportunities to train employees as well as give presentations",
+        "Led the team in production numbers in addition to performing administrative tasks"
+        ]
+    },
+    {
+      "Id" : "3",
       "Title": "Imaging Specialist",
       "Company": "Ancestry.com",
       "Period": "9/2010-6/2011 and 8/2011-4/2012",
+      "Reference": {
+        "Name" : "Sally Trahan",
+        "Email" : "sally.trahan@ancestry.com"
+      },
       "Messages": [
         "Handled historical documents and images and prepared them for publishing",
-      "Was the top image producer in the department and learned how to troubleshoot the hardware and the software"
+        "Was the top image producer in the department and learned how to troubleshoot the hardware and the software"
         ]
     },
     {
+      "Id" : "4",
       "Title": "Technical Support Agent",
       "Company": "Ancestry.com",
       "Period": "6/2011-8/2011",
+      "Reference": {
+        "Name" : "Joanne Buit",
+        "Email" : "joanne.buit@ancestry.com"
+      },
       "Messages": [
         "Became familiar with Ancestry.com products and supported customers having technical problems",
-      "Learned more about Ancestry’s mission and gained insight into customers’ feelings about our products"
+        "Learned more about Ancestry’s mission and gained insight into customers’ feelings about our products"
         ]
     }
     ],
       "Skills": {
-        "Languages and Technologies": [
+        "Technologies": [
           "C",
-        "C#",
-        "C++",
-        "CSS",
-        "Git",
-        "HTML",
-        "Java",
-        "Javascript",
-        "Kanban",
-        "MongoDB",
-        ".NET",
-        "Node.js",
-        "OpenStack",
-        "Python",
-        "Ruby",
-        "Scrum",
-        "SQL",
-        "WPF"
+          "C#",
+          "C++",
+          "CSS",
+          "Git",
+          "HTML",
+          "Java",
+          "Javascript",
+          "Kanban",
+          "MongoDB",
+          ".NET",
+          "Node.js",
+          "OpenStack",
+          "Python",
+          "Ruby",
+          "Scrum",
+          "SQL Server",
+          "MySQL",
+          "SQLite"
           ]
       },
-    "Education": {
+    "Education": [
+    {
+      "Id": "BYU",
       "Institution": "Brigham Young University",
       "Graduation": "April 2015",
       "Major": "Computer Science",
       "Minor": "Business",
-      "Relevant Courses": [
+      "Courses": [
         "Data Structures",
-      "Computer Systems",
-      "Discrete Structures and Mathematics"
-        ]
-    }
+        "Computer Systems",
+        "Discrete Structures and Mathematics"
+        ]}
+    ]
   }
 }
