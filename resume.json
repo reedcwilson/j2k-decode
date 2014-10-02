@@ -64,26 +64,48 @@
     ],
       "Skills": {
         "Technologies": [
-          "C",
-          "C#",
-          "C++",
-          "CSS",
-          "Git",
-          "HTML",
-          "Java",
-          "Javascript",
-          "Kanban",
-          "MongoDB",
-          ".NET",
-          "Node.js",
-          "OpenStack",
-          "Python",
-          "Ruby",
-          "Scrum",
-          "SQL Server",
-          "MySQL",
-          "SQLite"
-          ]
+        { "Name": "C Languages",
+          "Group": [
+            "C",
+            "C#",
+            "C++",
+            "Java"
+            ]
+        },
+        { "Name": "Web Technologies",
+          "Group": [
+            "CSS",
+            "HTML",
+            "Javascript"
+            ]
+        },
+        { "Name": "Scripting Languages",
+          "Group": [
+            "Node.js",
+            "Python",
+            "Ruby"
+            ]
+        },
+        { "Name": "Database",
+          "Group": [
+            "MongoDB",
+            "MySQL",
+            "SQLite",
+            "SQL Server"
+            ]
+        },
+        { "Name": "Process Management",
+          "Group": [
+            "Kanban",
+            "Scrum"
+            ]
+        },
+        { "Name": "Other",
+          "Group": [
+            "Git",
+            "OpenStack"
+            ]
+        }]
       },
     "Education": [
     {

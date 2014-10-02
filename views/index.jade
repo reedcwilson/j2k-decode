@@ -56,10 +56,13 @@ block content
     div(class="section", data-anchor='Skills')
       div(class='technologies')
         h3 Languages and Technologies
-        ul
-          each tech in content.resume.Skills.Technologies
-            li
-              a(href='#'): img(src=encodeURIComponent('images/' + tech.toLowerCase().replace(' ', '_') + '.png'), alt=tech)
+          each group in content.resume.Skills.Technologies
+            div(class="slide")
+              h1=group.Name
+              ul(class="tech-group")
+                each tech in group.Group
+                  li
+                    a(href='#'): img(src=encodeURIComponent('images/' + tech.toLowerCase().replace(' ', '_') + '.png'), alt=tech)
 
     div(class="section", data-anchor='Education')
       ul
