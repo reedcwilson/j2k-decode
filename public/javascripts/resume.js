@@ -31,4 +31,11 @@ $().ready(function() {
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
     onSlideLeave: function(anchorLink, index, slideIndex, direction){}
   });
+
+  //$('.experience-tbl td').each(function(index, value) {
+  //  value.onclick = function() {
+  //    id = $(value).find('p.experience-id').text();
+  //    $('#more-experience-' + id).delay(200).show().animate({opacity: 1, top:"40%"},'slow');
+  //  };
+  //});
 });

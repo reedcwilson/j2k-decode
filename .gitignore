@@ -1,3 +1,7 @@
+# Extra Views Stuff
+views/*.js
+views/*.html
+
 # Logs
 logs
 *.log

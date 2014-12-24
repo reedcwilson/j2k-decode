@@ -1,0 +1,18 @@
+extends layout
+
+block content
+
+  div
+    ul(id="menu")
+      li(data-menuanchor="Experience")
+        a(href="#Experience") Experience
+      li(data-menuanchor="Skills")
+        a(href="#Skills") Skills
+      li(data-menuanchor="Education")
+        a(href="#Education") Education
+
+    //-div(ng-controller='ExperienceController', id="fullpage")
+    div(id="fullpage")
+      div(class="section", data-anchor='Experience', id='experience-section')
+        //-p(ng-repeat='for experience in experiences') {{ experience }}
+        p test
