@@ -1,17 +1,21 @@
 var express = require('express');
 var router = express.Router();
-var config = require(__dirname + '/../resume');
+var md = require('marked');
+var fs = require('fs');
 
-
-/* GET home page. */
-router.get('/', function(req, res) {
-  //res.render('index', { title: 'Home', content: config });
-  res.render('resume', { title: 'Home', content: config });
-});
+var loadResume = function() {
+  var config = require(__dirname + '/../resume');
+  return config;
+};
 
 /* GET resume */
 router.get('/resume', function(req, res) {
-  res.json(config);
+  res.json(loadResume());
+});
+
+/* GET home page. */
+router.get('/', function(req, res) {
+  res.render('resume', { title: 'Home', content: loadResume() });
 });
 
 /* GET projects page. */
@@ -21,7 +25,10 @@ router.get('/projects', function(req, res) {
 
 /* GET about page. */
 router.get('/about', function(req, res) {
-  res.render('about', { title: 'About' });
+  fs.readFile(__dirname + '/../about.md', 'utf8', function(err, data){
+    if (err) throw err;
+    res.render('about', { title: 'About', md: md, markdown: data });
+  });
 });
 
 module.exports = router;

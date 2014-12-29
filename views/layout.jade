@@ -3,21 +3,23 @@ html(ng-app='resumeApp')
 html
   head
     title= title
-    link(rel='stylesheet', type="text/css", href="stylesheets/jquery.fullPage.css")
+    if title == 'Home' 
+      link(rel='stylesheet', type="text/css", href="stylesheets/jquery.fullPage.css")
     link(rel='stylesheet', type="text/css", href="lib/bootstrap/css/bootstrap.min.css")
     link(rel='stylesheet', href='stylesheets/style.css')
 
     script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
-    script(type="text/javascript", src="lib/fullpage/vendors/jquery.easings.min.js")
-    script(type="text/javascript", src="lib/fullpage/vendors/jquery.slimscroll.min.js")
-    script(type="text/javascript", src="lib/fullpage/jquery.fullPage.js")
+    if title == 'Home' 
+      script(type="text/javascript", src="lib/fullpage/vendors/jquery.easings.min.js")
+      script(type="text/javascript", src="lib/fullpage/vendors/jquery.slimscroll.min.js")
+      script(type="text/javascript", src="lib/fullpage/jquery.fullPage.js")
     script(type="text/javascript", src="lib/angular/angular.js")
     script(type="text/javascript", src="lib/bootstrap/js/bootstrap.min.js")
     script(type="text/javascript", src="javascripts/resume.js")
     script(type="text/javascript", src="javascripts/controllers.js")
   body
     header
-      nav(class='navbar navbar-default')
+      nav(class='navbar navbar-default navbar-fixed-top')
         div(class='container')
           div(class='container-fluid')
             div(class='navbar-header')
@@ -27,9 +29,10 @@ html
                 li(class=title === "Home" ? "active" : "undefined"): a(href='/') Home
                 li(class=title === "Projects" ? "active" : "undefined"): a(href='/projects') Projects
                 li(class=title === "About" ? "active" : "undefined"): a(href='/about') About
+                li: a(href='http://blog.reedcwilson.com') Blog
 
 
-    div(class='container')
+    div(class='container body')
       block content
 
   //-footer(class='shadow-overline') Reed Wilson &#0169; 2014
