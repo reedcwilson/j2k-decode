@@ -5,7 +5,7 @@
       "Id" : "1",
       "Title": "Software Engineer Intern",
       "Company": "Ancestry.com",
-      "Period": "6/2013-Present",
+      "Period": "6/13 - Present",
       "Reference": {
         "Name" : "Michael Murdock",
         "Email" : "mmurdock@ancestry.com"
@@ -20,7 +20,7 @@
       "Id" : "2",
       "Title": "Imaging Production Team Lead",
       "Company": "Ancestry.com",
-      "Period": "4/2012-6/2013",
+      "Period": "4/12 - 6/13",
       "Reference": {
         "Name" : "Jeff Heaps",
         "Email" : "jheaps@ancestry.com"
@@ -37,7 +37,7 @@
       "Id" : "3",
       "Title": "Imaging Specialist",
       "Company": "Ancestry.com",
-      "Period": "9/2010-6/2011 and 8/2011-4/2012",
+      "Period": "8/11 - 4/12",
       "Reference": {
         "Name" : "Sally Trahan",
         "Email" : "sally.trahan@ancestry.com"
@@ -51,7 +51,7 @@
       "Id" : "4",
       "Title": "Technical Support Agent",
       "Company": "Ancestry.com",
-      "Period": "6/2011-8/2011",
+      "Period": "6/11 - 8/11",
       "Reference": {
         "Name" : "Joanne Buit",
         "Email" : "joanne.buit@ancestry.com"
@@ -66,59 +66,162 @@
         "Technologies": [
         { "Name": "C Languages",
           "Group": [
-            "C",
-            "C#",
-            "C++",
-            "Java"
-            ]
+            { 
+              "Name": "C",
+              "Details": "My systems classes used C at times. I am less familiar with C as I am C++ but feel comfortable enough in C to be competent."
+            },
+            { 
+              "Name": "C++",
+              "Details": "My beginner classes as well as my systems classes were all done in C++. I am familiar with Makefiles, GCC and the object-oriented concepts as they are done in C++. I have no experience with the Boost library but am comfortable writing in C++"
+            },
+            { 
+              "Name": "C#",
+              "Details": "Ancestry uses C# in almost all of its development. I am extremely familiar with Visual Studio and would say that C# is my most comfortable language."
+            },
+            { 
+              "Name": "Java",
+              "Details": "My earlier classes used Java extensively and so I am familiar with Java though it is not a language I would choose to write a project in given the choice."
+            }
+          ]
         },
         { "Name": "Web Technologies",
           "Group": [
-            "CSS",
-            "HTML",
-            "Javascript"
-            ]
+            { 
+              "Name": "AngularJS",
+              "Details": "This website uses AngularJS as its front-end. I also wrote another site called broadcasts using AngularJS."
+            },
+            { 
+              "Name": "CSS",
+              "Details": "I am most comfortable using CSS frameworks like UIKit and Twitter Bootstrap. I can write plain CSS if needed but I use frameworks for my own work because of the ease-of-use and speed they provide. This site uses Twitter Bootstrap."
+            },
+            { 
+              "Name": "HTML",
+              "Details": "I am comfortable writing HTML and use it to document my page and not simply lay out the content the way I wish."
+            },
+            { 
+              "Name": "JavaScript",
+              "Details": "I have written multiple intranet sites used by Ancestry that have JavaScript functionality. I am most familiar with JQuery to manipulate the DOM but have used plain JavaScript in some scenarios to accomplish certain UI tasks."
+            }
+          ]
         },
         { "Name": "Scripting Languages",
           "Group": [
-            "Node.js",
-            "Python",
-            "Ruby"
-            ]
+            { 
+              "Name": "Node.js",
+              "Details": "This website uses a Node.js back-end web server which I wrote. I have also done some scripting in Node.js as well as a few other back-end servers for school and personal projects."
+            },
+            { 
+              "Name": "Python",
+              "Details": "Multiple classes I have taken were done primarily in Python. I am quite comfortable in this language and have done extensive scripting."
+            },
+            { 
+              "Name": "Ruby",
+              "Details": "I have contributed to an open source project called envelopes which uses a back-end service called syrup both of which are written in Ruby. I have also done some minor scripting in Ruby."
+            }
+          ]
         },
         { "Name": "Database",
           "Group": [
-            "MongoDB",
-            "MySQL",
-            "SQLite",
-            "SQL Server"
-            ]
+            { 
+              "Name": "MongoDB",
+              "Details": "I have used MongoDB for school assignments as well as some personal projects. I have done two in-depth research assignments on MongoDB and how it compares to other databases."
+            },
+            { 
+              "Name": "MySQL",
+              "Details": "Ancestry switched from SQL Server to MySQL so I was able to learn about the differences between the two and how to interface with and use MySQL."
+            },
+            { 
+              "Name": "SQLite",
+              "Details": "I have used SQLite for quite a few personal projects. We also use SQLite at Ancestry as a way to send information back and forth between us and our vendors. We also built a recipe based system for managing operations performed on a collection of images."
+            },
+            { 
+              "Name": "SQL Server",
+              "Details": "I used this at Ancestry. All of the legacy data up until 2014 was stored in Microsoft SQL Server instances."
+            }
+          ]
         },
         { "Name": "Process Management",
           "Group": [
-            "Kanban",
-            "Scrum"
-            ]
+            { 
+              "Name": "Kanban",
+              "Details": "I use Kanban for my personal projects and the team projects I have done in school."
+            },
+            { 
+              "Name": "Scrum",
+              "Details": "I participated in a Scrum team during my most recent time at Ancestry."
+            }
+          ]
         },
         { "Name": "Other",
           "Group": [
-            "Git",
-            "OpenStack"
-            ]
+            { 
+              "Name": "Git",
+              "Details": "I use Git for all of my version control. I use it every day and manage my private repositories, which primarily consists of school assignments, on BitBucket and host all of my other projects on GitHub."
+            },
+            { 
+              "Name": "OpenStack",
+              "Details": "I created a file copying and management system that interfaces with an OpenStack Swift cluster. The system essentially allowed users to use the Swift cluster as if it were a file system."
+            },
+            {
+              "Name": "WPF",
+              "Details": "I have written quite a few applications using WPF. A couple of these have been very large scale applications and I would say that I am very proficient in writing WPF applications"
+            }
+          ]
         }]
       },
     "Education": [
+    {
+      "Id": "PGHS",
+      "Institution": "Pleasant Grove High School",
+      "Graduation": "April 2007",
+      "Major": "",
+      "Minor": "",
+      "Courses": {
+        "Name": "Extra-Curricular",
+        "Courses": [
+          "Chamber and A Cappella Choir",
+          "Varsity Soccer Team"
+        ]}
+    },
     {
       "Id": "BYU",
       "Institution": "Brigham Young University",
       "Graduation": "April 2015",
       "Major": "Computer Science",
       "Minor": "Business",
-      "Courses": [
-        "Data Structures",
-        "Computer Systems",
-        "Discrete Structures and Mathematics"
-        ]}
+      "Courses": {
+        "Name": "Courses",
+        "Courses": [
+          "Advanced Programming Concepts",
+          "Algorithm Analysis",
+          "Big Data Mining",
+          "Calculus 1 - Derivative Calculus",
+          "Calculus 2 - Integral Calculus",
+          "Communication in an Organizational Setting",
+          "Computational and Probabilistic Models",
+          "Computer Communications and Networking",
+          "Computer Security",
+          "Computer Systems",
+          "Concepts of Programming Languages",
+          "Data Structures",
+          "Discrete Structures and Mathematics",
+          "Economics: Principles and Problems",
+          "Elementary Linear Algebra",
+          "Ethics and Computers in Society",
+          "Interactive Graphics and Image Processing",
+          "Internet Programming",
+          "Introduction to Artificial Intelligence",
+          "Machine Learning and Data Mining",
+          "Marketing Management",
+          "Newtonian Mechanics",
+          "Principles of Accounting",
+          "Principles of Finance",
+          "Principles of Statistics",
+          "Software Design and Testing",
+          "Software Engineering",
+          "Technical Communication and Writing"
+          ]}
+    }
     ]
   }
 }

@@ -5,7 +5,13 @@ var config = require(__dirname + '/../resume');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Home', content: config });
+  //res.render('index', { title: 'Home', content: config });
+  res.render('resume', { title: 'Home', content: config });
+});
+
+/* GET resume */
+router.get('/resume', function(req, res) {
+  res.json(config);
 });
 
 /* GET projects page. */

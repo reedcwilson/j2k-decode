@@ -2,17 +2,73 @@ extends layout
 
 block content
 
-  div
-    ul(id="menu")
-      li(data-menuanchor="Experience")
-        a(href="#Experience") Experience
-      li(data-menuanchor="Skills")
-        a(href="#Skills") Skills
-      li(data-menuanchor="Education")
-        a(href="#Education") Education
+  div(class='col-md-11')
+    div(ng-controller='ResumeController')
+      div(id="fullpage")
 
-    //-div(ng-controller='ExperienceController', id="fullpage")
-    div(id="fullpage")
-      div(class="section", data-anchor='Experience', id='experience-section')
-        //-p(ng-repeat='for experience in experiences') {{ experience }}
-        p test
+        div(class="section active", data-anchor='Experience', id='experience-section')
+          div(class='jumbotron')
+            h1 Recent Experience
+
+          div(class='panel-group', id='exp-accordion', role='tablist', aria-multiselectable='true')
+            div(ng-repeat='experience in resume.Experience', class='panel panel-default')
+              div(class='panel-heading', role='tab', id='experience-heading-{{ $index }}')
+                h3(class='panel-title') 
+                  a(data-toggle='collapse', data-parent='#exp-accordion', href='#experience-collapse-{{ $index }}', aria-expanded='true', aria-controls='experience-collapse-{{ $index }}')
+                    div(class='container-fluid')
+                      div(class='col-md-10')
+                        {{ experience.Title }}
+                        span(class='subtext')  - {{ experience.Company }}
+                      div(class='col-md-2 subtext')
+                        {{ experience.Period }}
+              div(id='experience-collapse-{{ $index }}', class='panel-collapse collapse', role='tabpanel', aria-labelledby='experience-heading-{{ $index }}')
+                div(class='panel-body')
+                  h5 Reference: 
+                    a(href='mailto:{{ experience.Reference.Email }}') {{ experience.Reference.Name }}
+                  h4 Tasks and Accomplishments
+                  ul
+                    li(ng-repeat='message in experience.Messages')
+                      {{ message }}
+
+        div(class="section", data-anchor='Technologies', id='technologies-section')
+          div(class='jumbotron')
+            h1 Languages & Technologies
+          div(ng-repeat='group in resume.Skills.Technologies')
+            h3 {{ group.Name }}
+            div(class='btn-group')
+              button(ng-repeat='tech in group.Group', ng-click='technologiesClick($parent.$index, $index)', id='tech-btn-{{ $parent.$index }}-{{ $index }}', class='btn btn-default tech-btn', type='button',  data-toggle='collapse',  data-target='#technology-collapse-{{ $parent.$index }}-{{ $index }}', aria-expanded='false', aria-controls='technology-collapse-{{ $parent.$index }}-{{ $index }}') {{ tech.Name }}
+            div(ng-repeat='tech in group.Group', class='collapse tech-collapse', id='technology-collapse-{{ $parent.$index }}-{{ $index }}')
+              div(class='well') {{ tech.Details }}
+
+        div(class="section", data-anchor='Education', id='education-section')
+          div(class='jumbotron')
+            h1 Education
+          div(class='panel-group', id='edu-accordion', role='tablist', aria-multiselectable='true')
+            div(ng-repeat='edu in resume.Education', class='panel panel-default')
+              div(class='panel-heading', role='tab', id='edu-heading-{{ $index }}')
+                h3(class='panel-title') 
+                  a(data-toggle='collapse', data-parent='#edu-accordion', href='#edu-collapse-{{ $index }}', aria-expanded='true', aria-controls='edu-collapse-{{ $index }}')
+                    div(class='container-fluid')
+                      div(class='col-md-10')
+                        {{ edu.Institution }}
+                      div(class='col-md-2 subtext')
+                        {{ edu.Graduation }}
+              div(id='edu-collapse-{{ $index }}', class='panel-collapse collapse', role='tabpanel', aria-labelledby='edu-heading-{{ $index }}')
+                div(class='panel-body')
+                  h5(ng-if="edu.Major != ''") Major: {{ edu.Major }}
+                  h5(ng-if="edu.Minor != ''") Minor: {{ edu.Minor }}
+                  h4 {{ edu.Courses.Name }}
+                  ul
+                    li(ng-repeat='course in edu.Courses.Courses')
+                      {{ course }}
+
+  div(class='col-md-1', id='resume-nav')
+    nav(class='affix')
+      ul(class='nav nav-tabs nav-stacked', data-spy='affix')
+        li(data-menuanchor="Experience", class='active')
+          a(href="#Experience") Experience
+        li(data-menuanchor="Technologies")
+          a(href="#Technologies") Technologies
+        li(data-menuanchor="Education")
+          a(href="#Education") Education
+

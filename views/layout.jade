@@ -1,27 +1,35 @@
 doctype html
+html(ng-app='resumeApp')
 html
   head
     title= title
-    link(rel='stylesheet', href='stylesheets/style.css')
-    link(rel='stylesheet', href='stylesheets/style.css')
     link(rel='stylesheet', type="text/css", href="stylesheets/jquery.fullPage.css")
+    link(rel='stylesheet', type="text/css", href="lib/bootstrap/css/bootstrap.min.css")
+    link(rel='stylesheet', href='stylesheets/style.css')
+
     script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
-    script(type="text/javascript", src="javascripts/vendors/jquery.easings.min.js")
-    script(type="text/javascript", src="javascripts/vendors/jquery.slimscroll.min.js")
-    script(type="text/javascript", src="javascripts/jquery.fullPage.js")
+    script(type="text/javascript", src="lib/fullpage/vendors/jquery.easings.min.js")
+    script(type="text/javascript", src="lib/fullpage/vendors/jquery.slimscroll.min.js")
+    script(type="text/javascript", src="lib/fullpage/jquery.fullPage.js")
+    script(type="text/javascript", src="lib/angular/angular.js")
+    script(type="text/javascript", src="lib/bootstrap/js/bootstrap.min.js")
     script(type="text/javascript", src="javascripts/resume.js")
-body
-  header(class='shadow-underline')
-    div(class='site-wrapper')
-      div(class='site-nav')
-        nav
-          ul
-            li: a(href='/') Home
-            li: a(href='/projects') Projects
-            li: a(href='/about') About
-      div(class='site-name') Résumé
+    script(type="text/javascript", src="javascripts/controllers.js")
+  body
+    header
+      nav(class='navbar navbar-default')
+        div(class='container')
+          div(class='container-fluid')
+            div(class='navbar-header')
+              a(class='navbar-brand') Résumé
+            div(class='collapse navbar-collapse')
+              ul(class='nav navbar-nav')
+                li(class=title === "Home" ? "active" : "undefined"): a(href='/') Home
+                li(class=title === "Projects" ? "active" : "undefined"): a(href='/projects') Projects
+                li(class=title === "About" ? "active" : "undefined"): a(href='/about') About
 
-  div(class='content')
-    block content
 
-footer(class='shadow-overline') Reed Wilson &#0169; 2014
+    div(class='container')
+      block content
+
+  //-footer(class='shadow-overline') Reed Wilson &#0169; 2014

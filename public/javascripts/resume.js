@@ -25,17 +25,17 @@ $().ready(function() {
 
     //events
     onLeave: function(index, nextIndex, direction){},
-    afterLoad: function(anchorLink, index){},
+    afterLoad: function(anchor, index){
+      $("li[data-menuanchor='" + anchor + "']")
+        .addClass('active')
+        .siblings()
+        .removeClass('active');
+      // push history
+      window.history.replaceState(null, anchor, '#' + anchor);
+    },
     afterRender: function(){},
     afterResize: function(){},
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
     onSlideLeave: function(anchorLink, index, slideIndex, direction){}
   });
-
-  //$('.experience-tbl td').each(function(index, value) {
-  //  value.onclick = function() {
-  //    id = $(value).find('p.experience-id').text();
-  //    $('#more-experience-' + id).delay(200).show().animate({opacity: 1, top:"40%"},'slow');
-  //  };
-  //});
 });
