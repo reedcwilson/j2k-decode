@@ -5,26 +5,25 @@ block content
   div(class='jumbotron')
     h1 a little about me
 
-  div(class='text-page')!=md(markdown)
+  div(id='about-content', class='text-page col-md-9')!=md(markdown)
 
-  //-div(id="carousel-example-generic", class="carousel slide fill", data-ride="carousel", data-interval='false')
-  //-  ol(class="carousel-indicators")
-  //-    li(data-target="#carousel-example-generic", data-slide-to="0", class="active")
-  //-    li(data-target="#carousel-example-generic", data-slide-to="1")
-
-  //-  div(class="carousel-inner", role="listbox")
-  //-    div(class="item active")
-  //-      img(class='about-img', src="/images/sammys.jpg", alt="Sammy's")
-  //-      div(class="carousel-caption")
-
-  //-    div(class="item")
-  //-      img(class='about-img', src="/images/nodejs.jpg", alt="nodejs")
-  //-      div(class="carousel-caption")
-
-  //-  a(class="left carousel-control", href="#carousel-example-generic", role="button", data-slide="prev")
-  //-    span(class="glyphicon glyphicon-chevron-left", aria-hidden="true")
-  //-    span(class="sr-only") Previous
-  //-  a(class="right carousel-control", href="#carousel-example-generic", role="button", data-slide="next")
-  //-    span(class="glyphicon glyphicon-chevron-right", aria-hidden="true")
-  //-    span(class="sr-only") Next
-
+  div(class='col-md-3')
+    nav(class='affix-top nav', id='about-affix')
+      ul(class="nav")
+        li: a(href='#about-family') family       
+        li 
+          a(href='#about-hobbies') hobbies
+          ul(class='nav')
+            li: a(href='#about-hobbies-reading') reading
+            li: a(href='#about-hobbies-music') music
+            li: a(href='#about-hobbies-eating') eating
+            li: a(href='#about-hobbies-sports') sports
+            li: a(href='#about-hobbies-games') games
+            li: a(href='#about-hobbies-traveling') traveling
+        li 
+          a(href='#about-aspirations') aspirations
+          ul(class='nav bs-docs-sidenav')
+            li: a(href='#about-aspirations-family') family
+            li: a(href='#about-aspirations-occupation') occupation
+            li: a(href='#about-aspirations-education') education
+        li: a(href='#about-community') community

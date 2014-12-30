@@ -25,7 +25,8 @@ nav {
  * StackOverflow Flair
  */
 #stackoverflow-flair {
-  margin: 20px;
+  display: inline;
+  margin: 10px;
   float: right;
 }
 .fill {
@@ -53,7 +54,28 @@ nav {
   max-width: 800px;
   max-height: auto;
 }
-.project-page {
-  margin-top: 80px;
-  margin-bottom: 150px;
+/*
+ * About Affix
+ */
+#about-affix {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+#about-affix a {
+  color: #808080;
+}
+#about-affix li {
+  margin-left: 10px;
+}
+#about-affix a:hover {
+  background: none;
+}
+#about-affix>ul>li.active>a,
+#about-affix>ul>li.active>ul>li.active {
+  border-left: 2px solid #808080;
+}
+#about-affix.affix {
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }

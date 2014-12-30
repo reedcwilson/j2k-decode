@@ -1,5 +1,5 @@
 
-# family
+<h1 id='about-family'>family</h1>
 Britney Wilson of American Fork, Utah and I were married on November 19, 2011 in
 the [Salt Lake City Temple][SLC Temple]. We currently live
 in Provo where I am finishing up my undergraduate degree at BYU. Britney
@@ -7,9 +7,12 @@ finished up her degree in Family Life at BYU and currently works at DoTerra and
 babysits for a family. Britney and I enjoy hiking, watching movies, eating good
 food, spending time with family and traveling whenever occasion allows. 
 
-# hobbies
+<p></p>
+You can find some of our photos [here]().
 
-## reading
+<h1 id='about-hobbies'>hobbies</h1>
+
+<h2 id='about-hobbies-reading'>reading</h2>
 I thoroughly enjoy reading. I read whenever I can and can often be seen with a
 book. I grew up with a mother who was nearly obsessed with books which meant we
 had thousands of books in bookshelves littered throughout our house for us kids
@@ -28,17 +31,17 @@ favorites include:
 - [Artemis Fowl][AF] - Eoin Colfer
 - [The Last Lecture][Lecture] - Randy Pausch and Jeffrey Zaslow
 
-## music 
-I grew up surrounded by music. Each of my siblings played at least two
-instruments growing up. My parents required us all to play the piano and urged
-us to pick up at least one more instrument. I chose to play the guitar, the
-trumpet and also participated in choir. I enjoy playing soft piano and acoustic
-guitar music. I also enjoy listening to music throughout each day. Lately it has
-been [Enya][Enya], [Coldplay's new album][Coldplay], [The Piano Guys][Piano
-Guys], and occasionally some dubstep. Pandora through [Pianobar][Pianobar] makes
-all of this very convenient.
+<h2 id='about-hobbies-music'>music</h2>
+I grew up surrounded by music. My siblings and I played at least two instruments
+growing up. My parents required us all to play the piano and urged us to pick up
+at least one more instrument. My extra instruments became the guitar, the
+trumpet and I also participated in choir. I enjoy playing soft piano and
+acoustic guitar music. I also enjoy listening to music throughout each day.
+Lately it has been [Enya][Enya], [Coldplay's new album][Coldplay], [The Piano
+Guys][Piano Guys], and occasionally some dubstep. Pandora through
+[Pianobar][Pianobar] makes all of this very convenient.
 
-## eating 
+<h2 id='about-hobbies-eating'>eating</h2>
 As I mentioned earlier, I really like to eat. I am not at all a picky eater and
 will try just about anything. Since marrying Britney, however, I have learned to
 enjoy eating at nice places. We especially love the [Cheesecake
@@ -54,7 +57,7 @@ places we like to go include:
 - [Tucanos][Tucanos]
 - [La Jolla Groves][JG]
 
-## sports
+<h2 id='about-hobbies-sports'>sports</h2>
 I grew up playing every sport I could possibly be enrolled in. These included,
 Basketball, Football, Baseball, Soccer, Wrestling, Swimming, Gymnastics, and
 Racquetball. Almost all of those phased out except Soccer, Basketball and
@@ -66,7 +69,7 @@ I am also a big BYU sports fan. I follow football and basketball primarily but
 will cheer on anyone wearing the BYU uniform (provided they aren't complete
 knuckleheads).
 
-## games 
+<h2 id='about-hobbies-games'>games</h2>
 My brothers and I played a lot of video games together when we were young. We
 were often satisfied simply to watch one of the brothers play. We had many of the
 classic games on NES like [Duck Hunt][Duck Hunt], [Techmo Bowl][Techmo Bowl] and
@@ -87,7 +90,7 @@ some kind of game. Some of our favorites include:
 - [Pandemic][Pandemic]
 - [Betrayal at House on the Hill][Betrayal]
 
-## traveling 
+<h2 id='about-hobbies-traveling'>traveling</h2>
 We aren't big-time travelers but nevertheless enjoy traveling. We enjoy going to
 California and visiting Disneyland, the beaches and other random places in the
 Greater Los Angeles and San Diego areas. St. George is a convenient getaway for
@@ -97,14 +100,14 @@ Parks] and state parks which we like to visit. We sometimes visit family in
 [Alta Wyoming][Alta] and we spend a week at [Bear Lake][Bear Lake] every year.
 We look forward to many opportunities in the future to travel.
 
-# aspirations
+<h1 id='about-aspirations'>aspirations</h1>
 
-## family
+<h2 id='about-aspirations-family'>family</h2>
 My wife and I want kids. We are interested in raising a family and helping
 children reach their full potential. We want to build a beautiful modern home
 somewhere in Utah Valley and live there until retirement if not longer.
 
-## occupation
+<h2 id='about-aspirations-occupation'>occupation</h2>
 While my goals in life never were to get into writing code, I have learned that
 I absolutely love to create things on the computer. It is magic to me and the
 best part is that I understand it (most of the time). I want to continue to
@@ -119,7 +122,7 @@ there are more influential in the grand scheme of the product. I am getting
 business minor and am interested in an MBA because I want to be more involved
 than someone who is simply told what to code.
 
-## education
+<h2 id='about-aspirations-education'>education</h2>
 As previously mentioned, I am interested in getting an MBA degree. I have also
 toyed with the idea of getting a PH.D. in Computer Science. When I began my
 undergraduate education the first thing I wanted to do was to become a
@@ -131,7 +134,7 @@ research involved in a Computer Science PH.D. program.
 I also want to continue learning regardless of how formal it might be. I love
 general education and want to continue to learn new things every day. 
 
-# community
+<h1 id='about-community'>community</h1>
 I served an two-year [LDS mission][Mission] in Atlanta Georgia ([Georgia Atlanta
 North Mission][GANM]). I lived in Grayson, Lawrenceville, Sandy Plains, Athens
 and Washington during my two years there and had many opportunities to provide
@@ -185,14 +188,3 @@ conducive place for families to raise children.
 [Forbidden Island]: https://google.com
 [Pandemic]: https://google.com
 [Betrayal]: https://google.com
-
-<!--
-
-<div class="col-md-8">
-</div>
-
-<div class="col-md-4">
-  <img src="/images/sammys.jpg" class="about-img" />
-</div>
-
--->
