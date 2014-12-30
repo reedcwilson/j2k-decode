@@ -4,7 +4,7 @@
     {
       "Id" : "1",
       "Title": "Software Engineer Intern",
-      "Company": "Ancestry.com",
+      "Company": "Ancestry",
       "Period": "6/13 - Present",
       "Reference": {
         "Name" : "Michael Murdock",
@@ -19,7 +19,7 @@
     {
       "Id" : "2",
       "Title": "Imaging Production Team Lead",
-      "Company": "Ancestry.com",
+      "Company": "Ancestry",
       "Period": "4/12 - 6/13",
       "Reference": {
         "Name" : "Jeff Heaps",
@@ -36,7 +36,7 @@
     {
       "Id" : "3",
       "Title": "Imaging Specialist",
-      "Company": "Ancestry.com",
+      "Company": "Ancestry",
       "Period": "8/11 - 4/12",
       "Reference": {
         "Name" : "Sally Trahan",
@@ -50,14 +50,14 @@
     {
       "Id" : "4",
       "Title": "Technical Support Agent",
-      "Company": "Ancestry.com",
+      "Company": "Ancestry",
       "Period": "6/11 - 8/11",
       "Reference": {
         "Name" : "Joanne Buit",
         "Email" : "joanne.buit@ancestry.com"
       },
       "Messages": [
-        "Became familiar with Ancestry.com products and supported customers having technical problems",
+        "Became familiar with Ancestry products and supported customers having technical problems",
         "Learned more about Ancestry’s mission and gained insight into customers’ feelings about our products"
         ]
     }

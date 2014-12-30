@@ -54,6 +54,11 @@ nav {
   max-width: 800px;
   max-height: auto;
 }
+.experience-icon {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
 /*
  * About Affix
  */

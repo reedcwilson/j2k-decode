@@ -17,6 +17,7 @@ block content
                   a(data-toggle='collapse', data-parent='#exp-accordion', href='#experience-collapse-{{ $index }}', aria-expanded='true', aria-controls='experience-collapse-{{ $index }}')
                     div(class='container-fluid')
                       div(class='col-md-10')
+                        img(class='experience-icon', src='/images/{{ experience.Company | lowercase }}.ico')
                         {{ experience.Title }}
                         span(class='subtext')  - {{ experience.Company }}
                       div(class='col-md-2 subtext')
