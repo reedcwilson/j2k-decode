@@ -21,7 +21,7 @@ classics like [The Count of Monte Cristo][Monte Cristo] and [A Tale of Two
 Cities][Two Cities] but I will read just about any good book. Some of my
 favorites include:
 
-- [The Wheel of Time][THoT] - Robert Jordan
+- [The Wheel of Time][TWoT] - Robert Jordan
 - [Mistborn][Mistborn] - Brandon Sanderson (I love all of his stuff really)
 - [The Stormlight Archive][SA] - Brandon Sanderson
 - [The Belgariad][Belgariad] - David Eddings
@@ -144,47 +144,46 @@ always interested in ways I can help my community to be a stronger and more
 conducive place for families to raise children.
 
 [SLC Temple]: http://www.ldschurchtemples.com/
-[Monte Cristo]: https://google.com
-[Two Cities]: https://google.com
-[THoT]: https://google.com
-[Mistborn]:https://google.com
-[SA]:https://google.com
-[Belgariad]:https://google.com
-[Ender]:https://google.com
-[Sabriel]:https://google.com
-[Bartimaeus]:https://google.com
-[AF]:https://google.com
-[Lecture]:https://google.com
-[Enya]:https://google.com
-[Coldplay]:https://google.com
-[Piano Guys]:https://google.com
-[Pianobar]:https://google.com
-[Cheesecake]: https://google.com
-[EE]: https://google.com
-[BS]: https://google.com
-[SB]: https://google.com
-[TR]: https://google.com
-[Zupas]: https://google.com
-[Tucanos]: https://google.com
-[JG]: https://google.com
-[Duck Hunt]: https://google.com
-[Techmo Bowl]: https://google.com
-[Punch-Out]: https://google.com
-[Myst]: https://google.com
-[Starcraft]: https://google.com
-[Warcraft]: https://google.com
-[Tichu]: https://google.com
-[Rook]: https://google.com
-[Blackbird]: https://google.com
-[Sequence]: https://google.com
+[Monte Cristo]: http://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264
+[Two Cities]: http://www.amazon.com/Tale-Cities-Dover-Thrift-Editions/dp/0486406512
+[TWoT]: http://www.dragonmount.com/Books/index.php
+[Mistborn]: http://brandonsanderson.com/books/mistborn/
+[SA]: http://brandonsanderson.com/books/the-stormlight-archive/
+[Belgariad]: http://davideddings.wikia.com/wiki/The_Belgariad
+[Ender]: http://www.amazon.com/Enders-Game-The-Ender-Quintet/dp/0812550706
+[Sabriel]: http://oldkingdom.com.au/sabriel.html
+[Bartimaeus]: http://www.bartimaeusbooks.com/
+[AF]: http://www.artemisfowl.com/
+[Lecture]: http://www.cmu.edu/randyslecture/
+[Enya]: http://www.enya.com/
+[Coldplay]: http://www.coldplay.com/
+[Piano Guys]: http://thepianoguys.com/
+[Pianobar]: http://lifehacker.com/5713551/pianobar-is-a-flash-free-pandora-player-inside-your-terminal
+[Cheesecake]: http://locations.thecheesecakefactory.com/ut/Salt%20Lake%20City-157.html/
+[EE]: http://www.theeatingestablishment.net/
+[BS]: http://burgerssupreme.com/
+[SB]: http://locations.smashburger.com/us/ut/orem/1057?q=orem+utah&loc=Orem%2C+UT&t=
+[TR]: http://www.texasroadhouse.com/restaurant-locations/utah/orem
+[Zupas]: http://cafezupas.com/
+[Tucanos]: https://www.tucanos.com/
+[JG]: http://lajollagroves.com/
+[Duck Hunt]: http://nintendo.wikia.com/wiki/Duck_Hunt
+[Techmo Bowl]: http://tecmobowl.org/playtecmo2014
+[Punch-Out]: http://punchout.wikia.com/wiki/Mike_Tyson
+[Myst]: http://cyan.com/games/myst/
+[Starcraft]: http://us.blizzard.com/en-us/games/hots/landing/
+[Warcraft]: http://us.blizzard.com/en-us/games/war3/
+[Tichu]: http://en.wikipedia.org/wiki/Tichu
+[Rook]: http://en.wikipedia.org/wiki/Rook_(card_game)
+[Blackbird]: http://blackbird.donwilson.net/
+[Sequence]: http://en.wikipedia.org/wiki/Sequence_(game)
+[Forbidden Desert]: http://www.amazon.com/Gamewright-415-Forbidden-Desert-Board/dp/B00B4ECHJI
+[Forbidden Island]: http://www.amazon.com/Gamewright-317-Forbidden-Island/dp/B003D7F4YY
+[Pandemic]: http://www.amazon.com/Z-Man-Games-ZMG-71100-Pandemic/dp/B00A2HD40E
+[Betrayal]: http://www.amazon.com/Betrayal-At-House-The-Hill/dp/B003HC9734
 [National Parks]: http://www.utah.com/nationalparks/
 [Mission]: http://www.mission.net/en/main_missionfaq.html
 [GANM]: http://missionhome.com/?missions=georgia-atlanta-north-mission
-[Tuacahn]: https://google.com
-[Alta]: https://google.com
-[Bear Lake]: https://google.com
-[Sequence]: https://google.com
-[Forbidden Desert]: https://google.com
-[Forbidden Island]: https://google.com
-[Pandemic]: https://google.com
-[Betrayal]: https://google.com
+[Tuacahn]: https://www.tuacahn.org/Online/default.asp
+[Alta]: http://www.tripadvisor.com/Tourism-g30354-Alta_Wyoming-Vacations.html
+[Bear Lake]: http://www.idealbeachresort.com/
