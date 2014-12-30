@@ -7,5 +7,16 @@ block content
   a(href="http://stackoverflow.com/users/2554442/carpenter")
     img(id="stackoverflow-flair", src="http://stackoverflow.com/users/flair/2554442.png", width="208", height="58", alt="profile for carpenter at Stack Overflow, Q&amp;A for professional and enthusiast programmers", title="profile for carpenter at Stack Overflow, Q&amp;A for professional and enthusiast programmers")
 
-  p broadcasts
-  p catan project
+  div(class='project-page')
+    h2: a(href='http://broadcasts.reedcwilson.com/') broadcasts
+    p This was a project done for CS 360 - Internet Programming. We were assigned to create a web application using modern technologies. I chose to make a site that allows people to embed a YouTube video into a page and then take personal notes and add publicly viewable links. The project wiki page can be found
+      a(href='https://github.com/reedcwilson/broadcasts/wiki')  here.
+    p The site was originally hosted on nodejitsu using a sandbox instance but has since been moved to heroku. It is written in node.js using a MongoDB database and uses AngularJS on the front end. Usernames and passwords are not stored on the site. Rather I leveraged OAuth2 to allow users to login with their Google account. More providers could easily be added but as a proof of concept I only included Google. The Markdown editor was made possible by UIKit and CodeMirror. 
+    h4 Dashboard
+    p The dashboard allows a user to create and delete broadcasts. It is currently globally editable so any broadcast one user creates another user will be able to view. This is intentional and provides a community to collaborate on the same broadcasts.
+    img(class='project-img', src='/images/broadcasts-dashboard.png')
+    h4 Broadcast
+    p The broadcast page is where users can watch the chosen video, take notes in Markdown and associate links with certain playback times in the video.
+    img(class='project-img', src='/images/broadcasts-broadcast.png')
+    hr
+    h2 the catan project
