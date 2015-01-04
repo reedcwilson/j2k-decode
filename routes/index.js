@@ -4,8 +4,7 @@ var md = require('marked');
 var fs = require('fs');
 
 var loadResume = function() {
-  var config = require(__dirname + '/../resume');
-  return config;
+  return require(__dirname + '/../resume');
 };
 
 /* GET resume */

@@ -26,7 +26,7 @@
         "Email" : "jheaps@ancestry.com"
       },
       "Messages": [
-        "Developed a WPF application for specialists to track images and statistical information using a SQL database",
+        "Developed a <a href='https://github.com/reedcwilson/SpecialistDashboard'>WPF application</a> for specialists to track images and statistical information using a SQL database",
         "Developed multiple WinForms applications to accomplish minor image processing and file manipulations",
         "Supported the office manager in maintaining the production floor",
         "Had many opportunities to train employees as well as give presentations",
@@ -68,19 +68,19 @@
           "Group": [
             { 
               "Name": "C",
-              "Details": "My systems classes used C at times. I am less familiar with C as I am C++ but feel comfortable enough in C to be competent."
+              "Details": "My systems classes used <a href='http://en.wikipedia.org/wiki/C_(programming_language)'>C</a> at times. I am less familiar with C as I am C++ but feel comfortable enough in C to be competent."
             },
             { 
               "Name": "C++",
-              "Details": "My beginner classes as well as my systems classes were all done in C++. I am familiar with Makefiles, GCC and the object-oriented concepts as they are done in C++. I have no experience with the Boost library but am comfortable writing in C++"
+              "Details": "My beginner classes as well as my systems classes were all done in <a href='http://www.cplusplus.com/'>C++</a>. I am familiar with Makefiles, GCC and the object-oriented concepts as they are done in C++. I have no experience with the <a href='http://www.boost.org/'>Boost</a> library but am comfortable writing in C++."
             },
             { 
               "Name": "C#",
-              "Details": "Ancestry uses C# in almost all of its development. I am extremely familiar with Visual Studio and would say that C# is my most comfortable language."
+              "Details": "Ancestry uses <a href='http://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> in almost all of its development. I am extremely familiar with <a href='http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx'>Visual Studio</a> and would say that C# is my most comfortable language."
             },
             { 
               "Name": "Java",
-              "Details": "My earlier classes used Java extensively and so I am familiar with Java though it is not a language I would choose to write a project in given the choice."
+              "Details": "My earlier classes used Java extensively and so I am familiar with <a href='http://www.oracle.com/technetwork/java/index-138747.html'>Java</a> though it is not a language I would choose to write a project in given the choice. I used <a href='https://www.jetbrains.com/idea/'>IntelliJ</a> as my default editor so I am comfortable with its environment."
             }
           ]
         },
@@ -88,19 +88,19 @@
           "Group": [
             { 
               "Name": "AngularJS",
-              "Details": "This website uses AngularJS as its front-end. I also wrote another site called broadcasts using AngularJS."
+              "Details": "This website uses <a href='https://angularjs.org/'>AngularJS</a> as its front-end. I also wrote another site called <a href='http://broadcasts.reedcwilson.com'>broadcasts</a> using AngularJS."
             },
             { 
               "Name": "CSS",
-              "Details": "I am most comfortable using CSS frameworks like UIKit and Twitter Bootstrap. I can write plain CSS if needed but I use frameworks for my own work because of the ease-of-use and speed they provide. This site uses Twitter Bootstrap."
+              "Details": "I am most comfortable using CSS frameworks like <a href='http://getuikit.com/index.html'>UIKit</a> and <a href='http://getbootstrap.com/'>Twitter Bootstrap</a>. I can write plain CSS if needed but I use frameworks for my own work because of the ease-of-use and speed they provide. This site uses Twitter Bootstrap."
             },
             { 
               "Name": "HTML",
-              "Details": "I am comfortable writing HTML and use it to document my page and not simply lay out the content the way I wish."
+              "Details": "I am comfortable writing HTML and use it to <a href='https://support.google.com/webmasters/answer/6001095?hl=en'>describe</a> my page and not simply lay out the content the way I wish."
             },
             { 
               "Name": "JavaScript",
-              "Details": "I have written multiple intranet sites used by Ancestry that have JavaScript functionality. I am most familiar with JQuery to manipulate the DOM but have used plain JavaScript in some scenarios to accomplish certain UI tasks."
+              "Details": "I have written multiple intranet sites used by Ancestry that have JavaScript functionality. I am most familiar with <a href='http://jquery.com/'>JQuery</a> to manipulate the DOM but have used plain JavaScript in some scenarios to accomplish certain UI tasks."
             }
           ]
         },
@@ -108,15 +108,15 @@
           "Group": [
             { 
               "Name": "Node.js",
-              "Details": "This website uses a Node.js back-end web server which I wrote. I have also done some scripting in Node.js as well as a few other back-end servers for school and personal projects."
+              "Details": "This website uses a <a href='http://nodejs.org/'>Node.js</a> back-end web server which I wrote. I have also done some scripting in Node.js as well as a few other back-end servers for school and personal projects."
             },
             { 
               "Name": "Python",
-              "Details": "Multiple classes I have taken were done primarily in Python. I am quite comfortable in this language and have done extensive scripting."
+              "Details": "Multiple classes I have taken were done primarily in <a href='https://www.python.org/'>Python</a>. I am quite comfortable in this language and have done extensive scripting."
             },
             { 
               "Name": "Ruby",
-              "Details": "I have contributed to an open source project called envelopes which uses a back-end service called syrup both of which are written in Ruby. I have also done some minor scripting in Ruby."
+              "Details": "I have contributed to a <a href='https://www.ruby-lang.org/en/'>Ruby</a> open source project called <a href='https://github.com/dontangg/syrup'>syrup</a> which is used as a service to extract bank information. I have also done some minor scripting in Ruby."
             }
           ]
         },
@@ -124,19 +124,19 @@
           "Group": [
             { 
               "Name": "MongoDB",
-              "Details": "I have used MongoDB for school assignments as well as some personal projects. I have done two in-depth research assignments on MongoDB and how it compares to other databases."
+              "Details": "I have used <a href='http://www.mongodb.org/'>MongoDB</a> for school assignments as well as some personal projects. I have done two (<a href='https://drive.google.com/file/d/0B61tSETKk1a6LWY0STZFVGs5RG8/view?usp=sharing'>one</a>, and <a href='https://drive.google.com/file/d/0B61tSETKk1a6WVFCbDhfQ3A1S28/view?usp=sharing'>two</a>) in-depth research assignments on MongoDB and how it compares to other databases."
             },
             { 
               "Name": "MySQL",
-              "Details": "Ancestry switched from SQL Server to MySQL so I was able to learn about the differences between the two and how to interface with and use MySQL."
+              "Details": "Ancestry switched from SQL Server to <a href='http://www.mysql.com/'>MySQL</a> so I was able to learn about the differences between the two and how to interface with and use MySQL."
             },
             { 
               "Name": "SQLite",
-              "Details": "I have used SQLite for quite a few personal projects. We also use SQLite at Ancestry as a way to send information back and forth between us and our vendors. We also built a recipe based system for managing operations performed on a collection of images."
+              "Details": "I have used <a href='http://www.sqlite.org/'>SQLite</a> for quite a few personal projects. We also use SQLite at Ancestry as a way to send information back and forth between us and our vendors. We also built a recipe based system for managing operations performed on a collection of images."
             },
             { 
               "Name": "SQL Server",
-              "Details": "I used this at Ancestry. All of the legacy data up until 2014 was stored in Microsoft SQL Server instances."
+              "Details": "I used this at Ancestry. All of the legacy data up until 2014 was stored in <a href='http://www.microsoft.com/en-us/server-cloud/products/sql-server/'>Microsoft SQL Server</a> instances."
             }
           ]
         },
@@ -144,11 +144,11 @@
           "Group": [
             { 
               "Name": "Kanban",
-              "Details": "I use Kanban for my personal projects and the team projects I have done in school."
+              "Details": "I use <a href='http://kanbanblog.com/explained/'>Kanban</a> for my <a href='https://trello.com/'>personal projects</a> and the team projects I have done in school."
             },
             { 
               "Name": "Scrum",
-              "Details": "I participated in a Scrum team during my most recent time at Ancestry."
+              "Details": "I participated in a <a href='https://www.scrum.org/Resources/What-is-Scrum'>Scrum</a> team during my most recent time at Ancestry."
             }
           ]
         },
@@ -156,15 +156,15 @@
           "Group": [
             { 
               "Name": "Git",
-              "Details": "I use Git for all of my version control. I use it every day and manage my private repositories, which primarily consists of school assignments, on BitBucket and host all of my other projects on GitHub."
+              "Details": "I use <a href='http://git-scm.com/'>Git</a> for all of my version control. I use it every day and manage my private repositories, which primarily consists of school assignments, on <a href='https://bitbucket.org/'>BitBucket</a> and host all of my other projects on <a href='https://bitbucket.org/'>GitHub</a>."
             },
             { 
               "Name": "OpenStack",
-              "Details": "I created a file copying and management system that interfaces with an OpenStack Swift cluster. The system essentially allowed users to use the Swift cluster as if it were a file system."
+              "Details": "I created a file copying and management system that interfaces with an <a href='https://wiki.openstack.org/wiki/Swift'>OpenStack Swift</a> cluster. The system essentially allowed users to use the Swift cluster as if it were a file system."
             },
             {
               "Name": "WPF",
-              "Details": "I have written quite a few applications using WPF. A couple of these have been very large scale applications and I would say that I am very proficient in writing WPF applications"
+              "Details": "I have written quite a few applications using <a href='http://msdn.microsoft.com/en-us/library/aa970268%28v=vs.110%29.aspx'>WPF</a>. A couple of these have been very large scale applications and I would say that I am very proficient in writing WPF applications"
             }
           ]
         }]
@@ -174,53 +174,173 @@
       "Id": "PGHS",
       "Institution": "Pleasant Grove High School",
       "Graduation": "April 2007",
-      "Major": "",
-      "Minor": "",
-      "Courses": {
-        "Name": "Extra-Curricular",
-        "Courses": [
+      "ExtraCurricular": [
           "Chamber and A Cappella Choir",
           "Varsity Soccer Team"
-        ]}
+        ]
     },
     {
       "Id": "BYU",
       "Institution": "Brigham Young University",
       "Graduation": "April 2015",
-      "Major": "Computer Science",
-      "Minor": "Business",
-      "Courses": {
-        "Name": "Courses",
-        "Courses": [
-          "Advanced Programming Concepts",
-          "Algorithm Analysis",
-          "Big Data Mining",
-          "Calculus 1 - Derivative Calculus",
-          "Calculus 2 - Integral Calculus",
-          "Communication in an Organizational Setting",
-          "Computational and Probabilistic Models",
-          "Computer Communications and Networking",
-          "Computer Security",
-          "Computer Systems",
-          "Concepts of Programming Languages",
-          "Data Structures",
-          "Discrete Structures and Mathematics",
-          "Economics: Principles and Problems",
-          "Elementary Linear Algebra",
-          "Ethics and Computers in Society",
-          "Interactive Graphics and Image Processing",
-          "Internet Programming",
-          "Introduction to Artificial Intelligence",
-          "Machine Learning and Data Mining",
-          "Marketing Management",
-          "Newtonian Mechanics",
-          "Principles of Accounting",
-          "Principles of Finance",
-          "Principles of Statistics",
-          "Software Design and Testing",
-          "Software Engineering",
-          "Technical Communication and Writing"
-          ]}
+      "Specialization": [
+        {
+          "Name": "Major",
+          "Details": {
+            "Name": "Computer Science",
+            "CourseGroup": [
+              {
+                "Name": "Math",
+                "Courses": [
+                  { 
+                    "Name": "Algorithm Analysis",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  { 
+                    "Name": "Calculus 1 - Derivative Calculus",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Calculus 2 - Integral Calculus",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Computational and Probabilistic Models",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Discrete Structures and Mathematics",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Elementary Linear Algebra",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Newtonian Mechanics",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Principles of Statistics",
+                    "Details": "This is a test to see how it looks"
+                  }
+                ]
+              },
+              {
+                "Name": "Software Engineering",
+                "Courses": [
+                  {
+                    "Name": "Newtonian Mechanics",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  { 
+                    "Name": "Advanced Programming Concepts",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Computer Systems",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Concepts of Programming Languages",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Data Structures",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Interactive Graphics and Image Processing",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Internet Programming",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Software Design and Testing",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Software Engineering",
+                    "Details": "This is a test to see how it looks"
+                  }
+                ]
+              },
+              {
+                "Name": "Specialization and Electives",
+                "Courses": [
+                  { 
+                    "Name": "Big Data Mining",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Computer Communications and Networking",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Computer Security",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Ethics and Computers in Society",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Introduction to Artificial Intelligence",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Machine Learning and Data Mining",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Technical Communication and Writing",
+                    "Details": "This is a test to see how it looks"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Minor",
+          "Details": {
+            "Name": "Business",
+            "CourseGroup": [
+              {
+                "Name": "General",
+                "Courses": [
+                  { 
+                    "Name": "Communication in an Organizational Setting",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Economics: Principles and Problems",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Marketing Management",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Principles of Accounting",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Principles of Finance",
+                    "Details": "This is a test to see how it looks"
+                  },
+                  {
+                    "Name": "Principles of Statistics",
+                    "Details": "This is a test to see how it looks"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     }
     ]
   }

@@ -28,8 +28,7 @@ block content
                     a(href='mailto:{{ experience.Reference.Email }}') {{ experience.Reference.Name }}
                   h4 Tasks and Accomplishments
                   ul
-                    li(ng-repeat='message in experience.Messages')
-                      {{ message }}
+                    li(ng-repeat='message in experience.Messages', ng-bind-html='renderHtml(message)') {{ message }}
 
         div(class="section", data-anchor='Technologies', id='technologies-section')
           div(class='jumbotron')
@@ -39,7 +38,7 @@ block content
             div(class='btn-group')
               button(ng-repeat='tech in group.Group', ng-click='technologiesClick($parent.$index, $index)', id='tech-btn-{{ $parent.$index }}-{{ $index }}', class='btn btn-default tech-btn', type='button',  data-toggle='collapse',  data-target='#technology-collapse-{{ $parent.$index }}-{{ $index }}', aria-expanded='false', aria-controls='technology-collapse-{{ $parent.$index }}-{{ $index }}') {{ tech.Name }}
             div(ng-repeat='tech in group.Group', class='collapse tech-collapse', id='technology-collapse-{{ $parent.$index }}-{{ $index }}')
-              div(class='well') {{ tech.Details }}
+              div(class='well', ng-bind-html='renderHtml(tech.Details)') {{ tech.Details }}
 
         div(class="section", data-anchor='Education', id='education-section')
           div(class='jumbotron')
@@ -56,12 +55,29 @@ block content
                         {{ edu.Graduation }}
               div(id='edu-collapse-{{ $index }}', class='panel-collapse collapse', role='tabpanel', aria-labelledby='edu-heading-{{ $index }}')
                 div(class='panel-body')
-                  h5(ng-if="edu.Major != ''") Major: {{ edu.Major }}
-                  h5(ng-if="edu.Minor != ''") Minor: {{ edu.Minor }}
-                  h4 {{ edu.Courses.Name }}
-                  ul
-                    li(ng-repeat='course in edu.Courses.Courses')
-                      {{ course }}
+
+                  div(ng-if="edu.Specialization", class='panel-group', id='edu-specialization-accordion', role='tablist', aria-multiselectable='true')
+                    div(ng-repeat='specialization in edu.Specialization', class='panel panel-default')
+                      div(class='panel-heading', role='tab', id='edu-{{ $parent.$index }}-{{ specialization.Name }}-heading')
+                        h3(class='panel-title') 
+                          a(data-toggle='collapse', data-parent='#edu-specialization-accordion', href='#edu-{{ $parent.$index }}-{{ specialization.Name }}-collapse', aria-expanded='true', aria-controls='edu-{{ $parent.$index }}-{{ specialization.Name }}-collapse')
+                            div(class='container-fluid')
+                              | {{ specialization.Name }}: {{ specialization.Details.Name }}
+                      div(id='edu-{{ $parent.$index }}-{{ specialization.Name }}-collapse', class='panel-collapse collapse', role='tabpanel', aria-labelledby='edu-{{ $parent.$index }}-{{ specialization.Name }}-heading')
+                        div(class='panel-body')
+                          div(class='panel-group', id='edu-{{ specialization.Name }}-accordion', role='tablist', aria-multiselectable='true')
+                            div(ng-repeat='group in specialization.Details.CourseGroup', class='panel panel-default')
+                              div(class='panel-heading', role='tab', id='edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-heading')
+                                h3(class='panel-title') 
+                                  a(data-toggle='collapse', data-parent='#edu-{{ specialization.Name }}-accordion', href='#edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-collapse', aria-expanded='true', aria-controls='edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-collapse')
+                                    div(class='container-fluid')
+                                      {{ group.Name }}
+                              div(id='edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-collapse', class='panel-collapse collapse', role='tabpanel', aria-labelledby='#edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-heading')
+                                div(class='panel-body')
+                                  div(class='btn-group')
+                                    button(ng-repeat='course in group.Courses', ng-click='coursesClick($parent.$index, $index)', id='edu-btn-{{ specialization.Name }}-{{ $parent.$index }}-{{ $index }}', class='btn btn-default edu-btn', type='button',  data-toggle='collapse',  data-target='#edu-collapse-{{ specialization.Name }}-{{ $parent.$index }}-{{ $index }}', aria-expanded='false', aria-controls='edu-collapse-{{ specialization.Name }}-{{ $parent.$index }}-{{ $index }}') {{ course.Name }}
+                                  div(ng-repeat='course in group.Courses', class='collapse edu-collapse', id='edu-collapse-{{ specialization.Name }}-{{ $parent.$index }}-{{ $index }}')
+                                    div(class='well', ng-bind-html='renderHtml(course.Details)') {{ course.Details }}
 
   div(class='col-md-1', id='resume-nav')
     nav(class='affix')
