@@ -59,6 +59,43 @@ nav {
   width: auto;
   margin-right: 10px;
 }
+@media (max-width: 1300px) {
+  body {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  body span {
+    font-size: 12px;
+  }
+  body h1 {
+    font-size: 30px;
+  }
+  body h2 {
+    font-size: 24px;
+  }
+  body h3 {
+    font-size: 18px;
+  }
+  body h4 {
+    font-size: 16px;
+  }
+  body h5 {
+    font-size: 14px;
+  }
+  .container .jumbotron {
+    padding: 0px;
+  }
+  .jumbotron {
+    margin: 0px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+}
 /*
  * About Affix
  */

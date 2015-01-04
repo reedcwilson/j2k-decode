@@ -50,9 +50,9 @@ block content
                   a(data-toggle='collapse', data-parent='#edu-accordion', href='#edu-collapse-{{ $index }}', aria-expanded='true', aria-controls='edu-collapse-{{ $index }}')
                     div(class='container-fluid')
                       div(class='col-md-10')
-                        {{ edu.Institution }}
+                        span {{ edu.Institution }}
                       div(class='col-md-2 subtext')
-                        {{ edu.Graduation }}
+                        span {{ edu.Graduation }}
               div(id='edu-collapse-{{ $index }}', class='panel-collapse collapse', role='tabpanel', aria-labelledby='edu-heading-{{ $index }}')
                 div(class='panel-body')
 
@@ -62,7 +62,7 @@ block content
                         h3(class='panel-title') 
                           a(data-toggle='collapse', data-parent='#edu-specialization-accordion', href='#edu-{{ $parent.$index }}-{{ specialization.Name }}-collapse', aria-expanded='true', aria-controls='edu-{{ $parent.$index }}-{{ specialization.Name }}-collapse')
                             div(class='container-fluid')
-                              | {{ specialization.Name }}: {{ specialization.Details.Name }}
+                              span {{ specialization.Name }}: {{ specialization.Details.Name }}
                       div(id='edu-{{ $parent.$index }}-{{ specialization.Name }}-collapse', class='panel-collapse collapse', role='tabpanel', aria-labelledby='edu-{{ $parent.$index }}-{{ specialization.Name }}-heading')
                         div(class='panel-body')
                           div(class='panel-group', id='edu-{{ specialization.Name }}-accordion', role='tablist', aria-multiselectable='true')
@@ -71,7 +71,7 @@ block content
                                 h3(class='panel-title') 
                                   a(data-toggle='collapse', data-parent='#edu-{{ specialization.Name }}-accordion', href='#edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-collapse', aria-expanded='true', aria-controls='edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-collapse')
                                     div(class='container-fluid')
-                                      {{ group.Name }}
+                                      span {{ group.Name }}
                               div(id='edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-collapse', class='panel-collapse collapse', role='tabpanel', aria-labelledby='#edu-{{ $parent.$index }}-{{ specialization.Name }}-{{ $index }}-heading')
                                 div(class='panel-body')
                                   div(class='btn-group')
