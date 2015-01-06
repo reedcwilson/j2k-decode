@@ -194,76 +194,72 @@
                 "Courses": [
                   { 
                     "Name": "Algorithm Analysis",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Discussed and implemented various algorithm strategies and the math behind them. We specifically implemented divide and conquer, linear programming, dynamic programming and various search algorithms."
                   },
                   { 
-                    "Name": "Calculus 1 - Derivative Calculus",
-                    "Details": "This is a test to see how it looks"
+                    "Name": "Calculus 1 - Differential Calculus",
+                    "Details": "Learned how to derive all linear and continuous equations."
                   },
                   {
                     "Name": "Calculus 2 - Integral Calculus",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned various strategies for integration and also learned about common sequences and series."
                   },
                   {
                     "Name": "Computational and Probabilistic Models",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Discussed the theory and history of computation. We learned about finite state machines, grammars, turing models, and algorithm complexity (specifically what makes something an NP problem vs a P problem."
                   },
                   {
                     "Name": "Discrete Structures and Mathematics",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned boolean and relational algebra."
                   },
                   {
                     "Name": "Elementary Linear Algebra",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned how to perform various operations on matricies and how to do proofs."
                   },
                   {
                     "Name": "Newtonian Mechanics",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Experimented with and learned about basic Newtonian physics."
                   },
                   {
                     "Name": "Principles of Statistics",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned the basics about statistics and what is required to perform a statistically sound study including the math required."
                   }
                 ]
               },
               {
                 "Name": "Software Engineering",
                 "Courses": [
-                  {
-                    "Name": "Newtonian Mechanics",
-                    "Details": "This is a test to see how it looks"
-                  },
                   { 
                     "Name": "Advanced Programming Concepts",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Was introduced to design patterns, made a medium scale program that interacted with a database and had a server and client architecture."
                   },
                   {
                     "Name": "Computer Systems",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "This was a systems class and introduced me to low-level machine architecture and programming. We programmed in assembler and C."
                   },
                   {
                     "Name": "Concepts of Programming Languages",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned what features good programming languages possess. We implemented many aspects of a programming language such as the parser, closures, garbage collection and type checking."
                   },
                   {
                     "Name": "Data Structures",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Was introduced to basic data structures and implemented many of them. We implemented linked lists, stacks, queues and binary search trees."
                   },
                   {
                     "Name": "Interactive Graphics and Image Processing",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned about two-dimensional graphics programming."
                   },
                   {
                     "Name": "Internet Programming",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned about the architecture of the Internet and implemented socket programs, basic web servers and then made a web site using modern design principles."
                   },
                   {
                     "Name": "Software Design and Testing",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Implemented a large-scale version of the Settlers of Catan game as a web application while learning about design patterns and good testing practices."
                   },
                   {
                     "Name": "Software Engineering",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Worked on a team that consisted of various jobs for everyone in the class. This simulated a real software development team including managers, developers, testers, and marketers."
                   }
                 ]
               },
@@ -272,31 +268,31 @@
                 "Courses": [
                   { 
                     "Name": "Big Data Mining",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Used Hadoop to perform data mining operations on massive data sets. Conducted a <a href='https://drive.google.com/file/d/0B61tSETKk1a6dzUtLVZPM3RtUGM/view?usp=sharing'>study</a> using data gathered from Steam's public API."
                   },
                   {
                     "Name": "Computer Communications and Networking",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned about the Internet's architecture and implemented TCP."
                   },
                   {
                     "Name": "Computer Security",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned about various encryption algorithms and about common computer vulnerabilities. Performed attacks on programs and systems that exhibit these vulnerabilities."
                   },
                   {
                     "Name": "Ethics and Computers in Society",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Discussed the history of the Software Development industry and the ethics regarding various decisions that software professionals make."
                   },
                   {
                     "Name": "Introduction to Artificial Intelligence",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Implemented several Artificial Intelligence algorithms and created AI bots that could compete in a simulated environment."
                   },
                   {
                     "Name": "Machine Learning and Data Mining",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned about neural networks, decision trees, data mining and clustering."
                   },
                   {
                     "Name": "Technical Communication and Writing",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned how to convey ideas and write in a technical setting. Conducted presentations and created users manuals for technical materials."
                   }
                 ]
               }
@@ -313,27 +309,27 @@
                 "Courses": [
                   { 
                     "Name": "Communication in an Organizational Setting",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned about grammar usage and sentence structure to improve writing. Learned how to communicate in a professional setting."
                   },
                   {
                     "Name": "Economics: Principles and Problems",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned the basic principles of macro and micro economics."
                   },
                   {
                     "Name": "Marketing Management",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Discussed strategies for marketing products. We learned what large companies do to market as well as small start-ups."
                   },
                   {
                     "Name": "Principles of Accounting",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned the basic principles of accounting including the formulae needed to perform basic accounting."
                   },
                   {
                     "Name": "Principles of Finance",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Discussed corporate finances and learned about stocks, bonds, and annuities"
                   },
                   {
                     "Name": "Principles of Statistics",
-                    "Details": "This is a test to see how it looks"
+                    "Details": "Learned the basics about statistics and what is required to perform a statistically sound study including the math required."
                   }
                 ]
               }

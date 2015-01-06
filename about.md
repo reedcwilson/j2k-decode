@@ -1,5 +1,5 @@
 
-<h1 id='about-family'>family</h1>
+<h1 id='about-family' class='about-header anchor'>family</h1>
 Britney Wilson of American Fork, Utah and I were married on November 19, 2011 in
 the [Salt Lake City Temple][SLC Temple]. We currently live
 in Provo where I am finishing up my undergraduate degree at BYU. Britney
@@ -8,11 +8,11 @@ babysits for a family. Britney and I enjoy hiking, watching movies, eating good
 food, spending time with family and traveling whenever occasion allows. 
 
 <p></p>
-You can find some of our photos [here]().
+You can find some of our photos [here][Photos].
 
-<h1 id='about-hobbies'>hobbies</h1>
+<h1 id='about-hobbies' class='about-header anchor'>hobbies</h1>
 
-<h2 id='about-hobbies-reading'>reading</h2>
+<h2 id='about-hobbies-reading' class='about-header'>reading</h2>
 I thoroughly enjoy reading. I read whenever I can and can often be seen with a
 book. I grew up with a mother who was nearly obsessed with books which meant we
 had thousands of books in bookshelves littered throughout our house for us kids
@@ -31,7 +31,7 @@ favorites include:
 - [Artemis Fowl][AF] - Eoin Colfer
 - [The Last Lecture][Lecture] - Randy Pausch and Jeffrey Zaslow
 
-<h2 id='about-hobbies-music'>music</h2>
+<h2 id='about-hobbies-music' class='about-header anchor'>music</h2>
 I grew up surrounded by music. My siblings and I played at least two instruments
 growing up. My parents required us all to play the piano and urged us to pick up
 at least one more instrument. My extra instruments became the guitar, the
@@ -41,7 +41,7 @@ Lately it has been [Enya][Enya], [Coldplay's new album][Coldplay], [The Piano
 Guys][Piano Guys], and occasionally some dubstep. Pandora through
 [Pianobar][Pianobar] makes all of this very convenient.
 
-<h2 id='about-hobbies-eating'>eating</h2>
+<h2 id='about-hobbies-eating' class='about-header anchor'>eating</h2>
 As I mentioned earlier, I really like to eat. I am not at all a picky eater and
 will try just about anything. Since marrying Britney, however, I have learned to
 enjoy eating at nice places. We especially love the [Cheesecake
@@ -57,7 +57,7 @@ places we like to go include:
 - [Tucanos][Tucanos]
 - [La Jolla Groves][JG]
 
-<h2 id='about-hobbies-sports'>sports</h2>
+<h2 id='about-hobbies-sports' class='about-header anchor'>sports</h2>
 I grew up playing every sport I could possibly be enrolled in. These included,
 Basketball, Football, Baseball, Soccer, Wrestling, Swimming, Gymnastics, and
 Racquetball. Almost all of those phased out except Soccer, Basketball and
@@ -69,7 +69,7 @@ I am also a big BYU sports fan. I follow football and basketball primarily but
 will cheer on anyone wearing the BYU uniform (provided they aren't complete
 knuckleheads).
 
-<h2 id='about-hobbies-games'>games</h2>
+<h2 id='about-hobbies-games' class='about-header anchor'>games</h2>
 My brothers and I played a lot of video games together when we were young. We
 were often satisfied simply to watch one of the brothers play. We had many of the
 classic games on NES like [Duck Hunt][Duck Hunt], [Techmo Bowl][Techmo Bowl] and
@@ -90,7 +90,7 @@ some kind of game. Some of our favorites include:
 - [Pandemic][Pandemic]
 - [Betrayal at House on the Hill][Betrayal]
 
-<h2 id='about-hobbies-traveling'>traveling</h2>
+<h2 id='about-hobbies-traveling' class='about-header anchor'>traveling</h2>
 We aren't big-time travelers but nevertheless enjoy traveling. We enjoy going to
 California and visiting Disneyland, the beaches and other random places in the
 Greater Los Angeles and San Diego areas. St. George is a convenient getaway for
@@ -100,14 +100,14 @@ Parks] and state parks which we like to visit. We sometimes visit family in
 [Alta Wyoming][Alta] and we spend a week at [Bear Lake][Bear Lake] every year.
 We look forward to many opportunities in the future to travel.
 
-<h1 id='about-aspirations'>aspirations</h1>
+<h1 id='about-aspirations' class='about-header anchor'>aspirations</h1>
 
-<h2 id='about-aspirations-family'>family</h2>
+<h2 id='about-aspirations-family' class='about-header anchor'>family</h2>
 My wife and I want kids. We are interested in raising a family and helping
 children reach their full potential. We want to build a beautiful modern home
 somewhere in Utah Valley and live there until retirement if not longer.
 
-<h2 id='about-aspirations-occupation'>occupation</h2>
+<h2 id='about-aspirations-occupation' class='about-header anchor'>occupation</h2>
 While my goals in life never were to get into writing code, I have learned that
 I absolutely love to create things on the computer. It is magic to me and the
 best part is that I understand it (most of the time). I want to continue to
@@ -122,7 +122,7 @@ there are more influential in the grand scheme of the product. I am getting
 business minor and am interested in an MBA because I want to be more involved
 than someone who is simply told what to code.
 
-<h2 id='about-aspirations-education'>education</h2>
+<h2 id='about-aspirations-education' class='about-header anchor'>education</h2>
 As previously mentioned, I am interested in getting an MBA degree. I have also
 toyed with the idea of getting a PH.D. in Computer Science. When I began my
 undergraduate education the first thing I wanted to do was to become a
@@ -134,7 +134,7 @@ research involved in a Computer Science PH.D. program.
 I also want to continue learning regardless of how formal it might be. I love
 general education and want to continue to learn new things every day. 
 
-<h1 id='about-community'>community</h1>
+<h1 id='about-community' class='about-header anchor'>community</h1>
 I served an two-year [LDS mission][Mission] in Atlanta Georgia ([Georgia Atlanta
 North Mission][GANM]). I lived in Grayson, Lawrenceville, Sandy Plains, Athens
 and Washington during my two years there and had many opportunities to provide
@@ -143,6 +143,7 @@ of Latter-day Saints](https://lds.org). I continue to practice my faith and am
 always interested in ways I can help my community to be a stronger and more
 conducive place for families to raise children.
 
+[Photos]: http://reedcwilsonresume.blogspot.com/
 [SLC Temple]: http://www.ldschurchtemples.com/
 [Monte Cristo]: http://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264
 [Two Cities]: http://www.amazon.com/Tale-Cities-Dover-Thrift-Editions/dp/0486406512

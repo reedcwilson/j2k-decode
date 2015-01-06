@@ -45,7 +45,7 @@ nav {
   margin-top: 80px;
 }
 .text-page {
-  margin-bottom: 150px;
+  margin-bottom: 300px;
 }
 .nav-tabs {
   border-bottom: none;
@@ -91,6 +91,17 @@ nav {
   .jumbotron h1 {
     font-size: 30px;
   }
+}
+.about-header {
+  margin-bottom: 10px;
+}
+.anchor:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: 2em;
+  margin-top: -2em;
 }
 /*
  * About Affix
