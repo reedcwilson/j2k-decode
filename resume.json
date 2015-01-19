@@ -156,7 +156,7 @@
           "Group": [
             { 
               "Name": "Git",
-              "Details": "I use <a href='http://git-scm.com/'>Git</a> for all of my version control. I use it every day and manage my private repositories, which primarily consists of school assignments, on <a href='https://bitbucket.org/'>BitBucket</a> and host all of my other projects on <a href='https://bitbucket.org/'>GitHub</a>."
+              "Details": "I use <a href='http://git-scm.com/'>Git</a> for all of my version control. I use it every day and manage my private repositories, which primarily consists of school assignments, on <a href='https://bitbucket.org/'>BitBucket</a> and host all of my other projects on <a href='https://github.org/'>GitHub</a>."
             },
             { 
               "Name": "OpenStack",

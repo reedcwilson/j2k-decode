@@ -30,4 +30,9 @@ router.get('/about', function(req, res) {
   });
 });
 
+/* GET inspiring people */
+router.get('/inspiring-people', function(req, res) {
+  res.render('inspiring-people', { title: 'Inspiring People' });
+});
+
 module.exports = router;
